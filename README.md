@@ -1,11 +1,10 @@
-There are two parts to the app in this project: **test-app** and **test_api**. These are the front end React application and the backend Node API respectively.
+There is a parts to the app in this project: **test_api**. These are  the backend Node API respectively.
 
 ## Install the Dependencies
 
-We need to install dependencies for both **test-app** and **test_api**. Change directories into each and install with **npm**.
+We need to install dependencies for **test_api**. Change directories into each and install with **npm**.
 
 ```bash
-cd test-app
 npm install
 cd test_api
 npm install
@@ -24,7 +23,6 @@ For `JWT_SECRET`, provide a long, strong, unguessable secret, much like you woul
 The React app is built with **create-react-app**. Run it with the script provided in its **package.json** file.
 
 ```bash
-cd test-app
 npm start
 ```
 
